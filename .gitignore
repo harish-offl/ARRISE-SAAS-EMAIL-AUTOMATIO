@@ -1,0 +1,32 @@
+.env
+__pycache__/
+*/__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp_pytest/
+/.tmp_pytest_local/
+test_temp_local/
+pytest-cache-files-*/
+ai_generation.log
+data/*.db
+data/leads.csv
+server_*_current.txt
+server_test_*.txt
+
+# Next.js / Node.js
+norml-app/node_modules/
+norml-app/.next/
+norml-app/.env.local
+norml-app/out/
+norml-app/build/
+norml-app/dist/
+norml-app/*.log
+norml-app/.DS_Store
+norml-app/next-env.d.ts
+# Package lock files (optional - keep if you want)
+# norml-app/package-lock.json
+
+# SQLite runtime files
+*.db
+*.db-shm
+*.db-wal
